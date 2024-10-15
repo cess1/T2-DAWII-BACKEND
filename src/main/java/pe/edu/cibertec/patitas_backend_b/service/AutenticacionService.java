@@ -10,6 +10,5 @@ public interface AutenticacionService {
 
     String[] validarUsuario(LoginRequestDTO loginRequestDTO) throws IOException;
 
-    Date cerrarSesionUsuario(LogoutRequestDTO logoutRequestDTO) throws IOException;
-
+    Date cerrarSesion(LogoutRequestDTO logoutRequestDTO) throws IOException;
 }
